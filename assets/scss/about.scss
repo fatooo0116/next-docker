@@ -1,0 +1,48 @@
+.aboutUs{
+    background: #fcfcfc;
+    .avatar{
+      height: 0px;
+      padding-bottom: 40%;
+      background-size: cover;
+    }
+
+
+  .custom-page-content{
+        padding: 50px 70px 70px;
+        background:#fff;
+
+
+        .block-title{
+          margin: 0 0 20px;
+          padding-bottom: 3px;
+        }
+
+
+
+
+      .info-block-w-icon{
+        .ci-icon {
+          display: table-cell;
+          width: 54px;
+          padding-right: 25px;
+          i{
+            position: relative;
+            font-size: 42px;
+            color: #888;
+          }
+        }
+        .ci-text{
+          position: relative;
+          display: table-cell;
+          padding: 0;
+          vertical-align: middle;
+          h4{
+            font-size: 18px;
+            font-weight:bold;
+          }
+        }
+      }
+
+
+  }
+}

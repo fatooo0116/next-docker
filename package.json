@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-docker-pm2-nginx",
+  "version": "1.0.0",
+  "description": "Next.js with Docker, PM2 and NGINX",
+  "author": "Steve Holgado",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^7.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "@zeit/next-sass": "^1.0.1",
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next-images": "^1.0.4",
+    "node-sass": "^4.11.0",
+    "react-bootstrap": "^0.32.4"
+  }
+}
