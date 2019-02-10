@@ -35,80 +35,31 @@ const Portfolio = () => (
 
 
                     <Row>
-                      <Col xs={12} sm={4} >
-                              <figure className="inner-content">
-                                  <div className="portfolio-item-img">
-                                  <img src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-                                    <Link href="/"><a    >Home</a></Link>
-                                  </div>
-                              </figure>
-                      </Col>
-                      <Col xs={12} sm={4} >
-                        <figure className="inner-content">
-                            <div className="portfolio-item-img">
-                            <img src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-                                <Link href="/"><a    >Home</a></Link>
-                            </div>
-                        </figure>
-                      </Col>
-                      <Col xs={12} sm={4} >
-                        <figure className="inner-content">
-                            <div className="portfolio-item-img">
-                            <img src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-                              <Link href="/"><a    >Home</a></Link>
-                            </div>
-                        </figure>
-                      </Col>
 
-                      <Col xs={12} sm={4} >
-                              <figure className="inner-content">
-                                  <div className="portfolio-item-img">
-                                  <img src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-                                      <Link href="/"><a    >Home</a></Link>
-                                  </div>
-                              </figure>
-                      </Col>
-                      <Col xs={12} sm={4} >
-                        <figure className="inner-content">
-                            <div className="portfolio-item-img">
-                            <img src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-                              <Link href="/"><a    >Home</a></Link>
-                            </div>
-                        </figure>
-                      </Col>
-                      <Col xs={12} sm={4} >
-                        <figure className="inner-content">
-                            <div className="portfolio-item-img">
-                            <img src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-                              <Link href="/"><a >Home</a></Link>
-                            </div>
-                        </figure>
-                      </Col>
+                          <Col xs={12} sm={6} >
+                                  <figure className="inner-content">
+                                      <div className="portfolio-item-img">
+                                        <a href="#">
+                                            <div  className="tag">Front End</div>
+                                            <img src="https://lmpixels.com/wp/kerge-wp/wp-content/uploads/2018/04/blog_post_6_full.jpg" />
+                                            <div className="mask">
+                                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-activity">
+                                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                              </svg>
+                                            </div>
+                                        </a>
+                                      </div>
+                                      <div  className="post-info">
+                                          <div className="post-date">06 Apr 2018</div>
+                                          <a href="#">
+                                            <h4 className="blog-item-title">Best Practices for Animated Progress Indicators</h4>
+                                          </a>
+                                      </div>
+                                  </figure>
+                          </Col>
 
-                      <Col xs={12} sm={4} >
-                              <figure className="inner-content">
-                                  <div className="portfolio-item-img">
-                                    <img src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-                                    <Link  href="/" ><a>Home</a></Link>
-                                  </div>
-                              </figure>
-                      </Col>
-                      <Col xs={12} sm={4} >
-                        <figure className="inner-content">
-                            <div className="portfolio-item-img">
-                            <img src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-                              <Link href="/"><a    >Home</a></Link>
-                            </div>
-                        </figure>
-                      </Col>
-                      <Col xs={12} sm={4} >
-                        <figure className="inner-content">
-                            <div className="portfolio-item-img">
-                            <img src="https://images.pexels.com/photos/412681/pexels-photo-412681.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
-                                <Link href="/"><a    >Home</a></Link>
-                            </div>
-                        </figure>
-                      </Col>
+
+
                     </Row>
                   </div>
 

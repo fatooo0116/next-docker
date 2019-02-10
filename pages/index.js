@@ -14,8 +14,9 @@ const Index = (props) => (
         <Grid >
          <Row className="show-grid">
            <Col sm={12} md={6} lg={6}    className="avatar">
-
-            <img  src="https://s2.yimg.com/uu/api/res/1.2/sSVQkq_UsTVoSdorWAs0Ww--~B/Zmk9dWxjcm9wO2N3PTQ5MztkeD0zMDc7Y2g9MjkxO2R5PTgzO3c9MzkyO2g9MzA4O2NyPTE7YXBwaWQ9eXRhY2h5b24-/http://media.zenfs.com/zh-Hant-TW/homerun/mirrormedia.mg/ef0029674523f1b02691978e2ca48d4c" height="210" alt="忙驗票暴瘦8公斤 女科長病逝" id="yui_3_12_0_3_1548313169463_973" />
+             <a href="#">
+               <img  src="https://s2.yimg.com/uu/api/res/1.2/sSVQkq_UsTVoSdorWAs0Ww--~B/Zmk9dWxjcm9wO2N3PTQ5MztkeD0zMDc7Y2g9MjkxO2R5PTgzO3c9MzkyO2g9MzA4O2NyPTE7YXBwaWQ9eXRhY2h5b24-/http://media.zenfs.com/zh-Hant-TW/homerun/mirrormedia.mg/ef0029674523f1b02691978e2ca48d4c" height="210" alt="忙驗票暴瘦8公斤 女科長病逝" id="yui_3_12_0_3_1548313169463_973" />
+            </a>
 
            <h1>Batman TV Shows</h1>
            <ul>
@@ -130,7 +131,7 @@ const Index = (props) => (
 Index.getInitialProps = async function(){
   const res = await fetch('https://api.tvmaze.com/search/shows?q=batman')
   const data = await res.json()
-  console.log(`Show data fetched. Count: ${data.length}`)
+  // console.log(`Show data fetched. Count: ${data.length}`)
 
   return {
     shows: data
