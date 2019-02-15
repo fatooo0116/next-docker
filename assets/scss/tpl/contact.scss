@@ -1,0 +1,32 @@
+.lm-info-block {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0;
+    background: #fff;
+    padding: 20px 10px 15px;
+    border: 1px solid #eee;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+  i{
+    position: relative;
+    font-size: 40px;
+    color: #b5b5b5;
+  }
+  h4{
+        font-size: 16px;
+        margin-top: 10px;
+        a{
+          color: #333;
+        }
+  }
+}

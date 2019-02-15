@@ -2,10 +2,16 @@
 import Layout from './components/MyLayout.js'
 import { Grid, Row, Col  } from 'react-bootstrap';
 import "../assets/scss/styles.scss";
+import Head from 'next/head'
 
 const Resume = () => (
     <Layout>
 
+    <Head key="2">
+      <title>Resume | </title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <script>  </script>
+    </Head>
 
       <section className="pt-page">
         <div  className="section-inner">
